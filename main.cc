@@ -9,7 +9,7 @@ int main() {
   fw->setImage(IMAGE_FILE);
 
   fw->findWally();
-  
+
   cv::imshow(fw->WINDOW_NAME, fw->getImage());
   cv::waitKey(0);
 
